@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    background-color: #F4EFE5;;
 
 }
 
@@ -79,8 +80,10 @@ header {
         color: #E9D9A3;
         margin-bottom: 15px;
         margin-left: 25px;
+         background-color: #172923;
 
         .eyebrow-line {
+             background-color: #172923;
             width: 24px;
             font-size: 20px;
             color: #b85c4a;
@@ -91,6 +94,7 @@ header {
 
 
     h1 {
+         background-color: #172923;
         color: #FFFFF6;
         font-style: italic;
         font-size: 75px;
@@ -99,12 +103,14 @@ header {
         text-align: left;
 
         span {
+             background-color: #172923;
             color: #E9D9A3;
         }
 
     }
 
     >p {
+         background-color: #172923;
         color: #FFFFF6;
         margin-top: 5px;
         width: 450px;
@@ -114,10 +120,12 @@ header {
 
 
     .links {
+         background-color: #172923;
         display: flex;
         margin-top: 25px;
 
         a {
+             background-color: #172923;
             margin-right: 25px;
             font-size: 10px;
             font-family: Arial, sans-serif;
@@ -131,6 +139,7 @@ header {
 
 
     a {
+         background-color: #172923;
         font-family: Arial, sans-serif;
         font-size: 7px;
         font-weight: 500;
@@ -140,6 +149,7 @@ header {
     }
 
     .links {
+         background-color: #172923;
         display: flex;
         gap: 28px;
         margin-bottom: 27px;
@@ -147,6 +157,7 @@ header {
 
 
     h2 {
+         background-color: #172923;
         font-size: 10px;
         font-weight: 100;
         width: 800px;
@@ -154,6 +165,7 @@ header {
         letter-spacing: 3px;
 
         span {
+             background-color: #172923;
             color: #B53A27;
 
         }
@@ -192,6 +204,7 @@ header {
     background-color: #8cb7c2;
 
     h1 {
+         background-color: #8cb7c2;
         font-size: 20px;
         font-weight: 200;
 
@@ -202,7 +215,7 @@ header {
     margin-top: 100px;
     margin-left: 50px;
     margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 300;
 
     .eyebrow-line {
@@ -213,6 +226,7 @@ header {
 }
 
 .cards {
+    
     display: flex;
     justify-content: space-around;
     border-top: solid 2px rgba(0, 0, 0, 0.119);
@@ -244,5 +258,89 @@ header {
         }
 
 
+    }
+}
+
+.p2{
+    margin-top: 150px;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E9D9A3;
+
+  
+
+
+    p{
+        margin-top: 90px;
+       background-color: #E9D9A3;
+       font-size: 11px;
+       .eyebrow-line {
+            width: 24px;
+            font-size: 20px;
+            color: #b85c4a;
+            background-color: #E9D9A3;
+        }
+    }
+
+
+    h1{
+        margin-top: 20px;
+        background-color: #E9D9A3;
+        font-size: 50px;
+        width: 420px;
+        text-align: center;
+
+          span{
+        background-color: #E9D9A3;
+        color: #B53A27;
+        font-style: italic;
+    }
+    }
+
+
+    button{
+        margin-top: 20px;
+        width: 170px;
+        height: 35px;
+        font-size: 10px;
+        background-color: #172923;
+        color: #F4EFE5;
+        border: solid black 2px;
+        cursor: pointer;
+    
+    }
+
+
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    height: 100px;
+    background-color: #172923;
+
+    img{
+          width: 120px;
+             background-color: #172923;
+    }
+
+    h1{
+        font-size: 15px;
+        font-weight: 200;
+           background-color: #172923;
+           color: #F4EFE5;
+    }
+
+    p{
+        font-size: 10px;
+        font-weight: 200;
+           background-color: #172923;
+           color: #F4EFE5;
     }
 }
