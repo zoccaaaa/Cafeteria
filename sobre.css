@@ -62,7 +62,7 @@ header img {
 
 .imagem {
     width: 50%;
-    background-image: url("about-hero.jpg");
+    background-image: url("imagens/about-hero.jpg");
     background-size: cover;
     background-position: center;
     display: flex;

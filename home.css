@@ -187,7 +187,7 @@ header {
 
 
 .imagem {
-    background: url('hero-barista.jpg') no-repeat center center / cover;
+    background: url('imagens/hero-barista.jpg') no-repeat center center / cover;
     width: 90%;
     height: 90%;
 }
